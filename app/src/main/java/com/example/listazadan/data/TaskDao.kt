@@ -1,4 +1,4 @@
-package com.example.listaZadan.data
+package com.example.listazadan.data
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
@@ -14,4 +14,5 @@ interface TaskDao {
 
     @Query("SELECT * FROM tasks ORDER BY priority DESC")
     fun getAll(): Flow<List<Task>> // Obserwowalna lista zadań
+
 }

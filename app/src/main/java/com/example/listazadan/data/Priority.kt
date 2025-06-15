@@ -1,4 +1,4 @@
-package com.example.listaZadan.data
+package com.example.listazadan.data
 
 // Enum - określa możliwe poziomy priorytetu zadania
 enum class Priority {

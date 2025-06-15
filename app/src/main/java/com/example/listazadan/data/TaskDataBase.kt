@@ -1,4 +1,4 @@
-package com.example.listaZadan.data
+package com.example.listazadan.data
 
 import android.content.Context
 import androidx.room.Database
